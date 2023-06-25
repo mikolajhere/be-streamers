@@ -15,7 +15,7 @@ The application is configured to use the following settings:
 
 - `cors`: Cross-Origin Resource Sharing is enabled for requests coming from `http://localhost:3001`.
 - `body-parser`: Request bodies are parsed as JSON.
-You can modify these configurations by editing the relevant code sections in the `index.js` file.
+You can modify these configurations by editing the relevant code sections in the `server.js` file.
 
 ## Dependencies
 

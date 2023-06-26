@@ -1,15 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const streamerRouter = require("./routers/streamers");
-const cors = require("cors");
 
 const app = express();
-
-app.use(
-  cors({
-    origin: "http://localhost:3001",
-  })
-);
 
 app.use(bodyParser.json());
 
